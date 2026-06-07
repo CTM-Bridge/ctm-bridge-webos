@@ -1,0 +1,14 @@
+{
+  "id": "com.local.ctmbridge",
+  "version": "0.1.1",
+  "vendor": "local",
+  "type": "native",
+  "main": "bin/ctm_bridge_lvgl_ui",
+  "title": "CTM Device Bridge",
+  "icon": "icon.png",
+  "largeIcon": "icon_large.png",
+  "uiRevision": 3,
+  "requiredPermissions": [
+    "all"
+  ]
+}

@@ -1,0 +1,8 @@
+execute_process(
+  COMMAND ares-package "${CPACK_TEMPORARY_DIRECTORY}" -o "${CPACK_PACKAGE_DIRECTORY}"
+  RESULT_VARIABLE ARES_PACKAGE_RESULT
+)
+
+if(NOT ARES_PACKAGE_RESULT EQUAL 0)
+  message(FATAL_ERROR "ares-package failed: ${ARES_PACKAGE_RESULT}")
+endif()

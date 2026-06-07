@@ -1,0 +1,16 @@
+# Build / CMake output
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# Packaging
+/dist/
+*.ipk
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
